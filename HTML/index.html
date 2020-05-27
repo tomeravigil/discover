@@ -26,10 +26,10 @@
   <!-- Styles for the background image -->
   <style>
     body {
-      background-image: url(images/index_iceland_1.jpg);
+      background-image: url(images/index_iceland_2.jpg);
       background-size: cover;
       background-attachment: fixed;
-      background-color: rgba(255, 255, 255, 0.25);
+      background-color: rgba(255, 255, 255, 0);
       background-blend-mode: lighten;
     }
   </style>
@@ -40,7 +40,7 @@
 
 
 <body>
-  <img class="icon" src="images/favicon.png" width="30" height="30">
+  <!-- <img class="icon" src="images/favicon.png" width="50" height="50"> -->
   <h1 class="title">Discover</h1>
 
   <form>
@@ -57,12 +57,38 @@
       </div>
       <div class="col form-control form-control-lg">
         <input class="datepicker" type="date" name="to_date">
+        <!-- onfocus="(this.type='date')" onblur="(this.type='text')" -->
       </div>
       <div class="col">
-        <button type="submit" class="btn-lg btn-dark">Let's Plan!</button>
+        <!-- <a class="btn-lg btn-dark" href="attractions_map.html" role="button">Let's Plan!</a> -->
+        <button type="submit" class="btn-lg btn-dark submit-btn"><a href="attractions_map.html" class="btn-lg btn-dark submit-link">Let's Plan!</a></button>
       </div>
     </div>
   </form>
+
+<!-- Carousel -->
+  <!-- <div class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="images/index_iceland_1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Kirkjufell Mountain</h4>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/index_iceland_2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Northen Lights</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/index_iceland_3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Blue Lagoon</h4>
+        </div>
+      </div>
+    </div>
+  </div> -->
 
 
   <!-- <form action="" method="">

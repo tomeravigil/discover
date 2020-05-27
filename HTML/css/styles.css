@@ -29,6 +29,7 @@ h1{
 .form-control, .form-control-lg{
   padding: 5px;
   margin: 0 3px;
+  /* display: inline-block; */
 }
 
 .datepicker{
@@ -40,12 +41,56 @@ h1{
   width: 100%;
 }
 
-.icon{
+/* .icon{
   float: left;
-  margin: 10px 10px 10px 20px;
-}
+  margin: 3px 5px 0px 20px;
+} */
+
+/* .title-div-am{
+  background-color: grey;
+} */
 
 .title{
   color: #fafafa;
-  margin: 20px;
+  padding: 10px 0 10px 10px;
+}
+
+.title-am{
+  color: #fafafa;
+  margin-bottom: 0;
+  padding: 10px 0 10px 10px;
+  /* display: inline-block; */
+  background-color: #212529;
+}
+
+.submit-btn{
+  /* text-decoration: none; */
+  /* padding: 0; */
+}
+
+.submit-link:hover{
+  text-decoration: none;
+}
+
+/* .carousel{
+  data-interval: 2500;
+} */
+
+/* .d-block{
+  margin: -300px 0;
+} */
+
+.mb-3{
+  margin: 0!important;
+  /* border-bottom-width: 0px; */
+  border-left-width: 0px;
+  border-radius: 0;
+}
+
+.card-img{
+  border-radius: 0;
+}
+
+.card-text{
+  margin-bottom: 1px;
 }
